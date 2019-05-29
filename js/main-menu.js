@@ -1,7 +1,7 @@
  var CONFIG_JSON;
 
-$.getJSON("/config.json", function(data){
-    CONFIG_JSON = data;
+$.getJSON("/config.json", CONFIG_JSON = function(data){
+    return data;
 });
 
 try{   
