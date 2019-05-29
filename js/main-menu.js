@@ -1,8 +1,7 @@
  var CONFIG_JSON;
 
 $.getJSON("/config.json", function(data){
-    CONFIG_JSON = JSON.parse(data);
-    console.log(data);
+    CONFIG_JSON = data;
 });
 
 try{   
