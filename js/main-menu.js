@@ -10,6 +10,6 @@ $.getJSON("/config.json", function(data){
 console.log(CONFIG_JSON);
 try{   
     document.getElementById("icon-img")["src"] = CONFIG_JSON["icon_url"];
-} catch{
+} catch(err){
     document.getElementById("icon-img")["src"] = "src/icon.jpg"
 }
