@@ -2,6 +2,7 @@
 var CONFIG_JSON;
 $.getJSON("/config.json", function(data){
     console.log(data);
+    console.log(this);
     CONFIG_JSON = data;
 });
 
