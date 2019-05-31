@@ -1,0 +1,37 @@
+.main-menu{
+    margin:0;
+    float: left;
+    width: 10%;
+    height: 100%;
+    position:fixed; /*设置当前div占100%的高度*/
+    background-color:#6699CC;
+    text-align: center;
+}
+
+.icon-image{
+    margin: 10%;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.article-menu{
+    margin: 0;
+    margin-left: 10%;
+    float: left;
+    width: 20%;
+    height: 100%;
+    position:fixed; /*设置当前div占100%的高度*/
+    background-color:#99CCFF;
+    text-align: center;
+}
+
+.article-div{
+    float: left;
+    margin: 0;
+    margin-left: 30%;
+    width: 70%;
+    height: 100%;
+    position:fixed; /*设置当前div占100%的高度*/
+    background-color:#FFFFFF;
+    text-align: center;
+}
