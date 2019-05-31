@@ -1,5 +1,5 @@
 // 读取配置文件
-var CONFIG_JSON;
+CONFIG_JSON;
 $.getJSON("/config.json", function(data){
     console.log(data);
     console.log(this);
