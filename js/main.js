@@ -1,7 +1,8 @@
 // 读取配置文件
 var CONFIG_JSON;
+$.ajaxSettings.async = false;
 $.getJSON("/config.json", function(data){
-    console.log(data);
+    console.log("data");
     console.log(this);
     CONFIG_JSON = data;
 });
