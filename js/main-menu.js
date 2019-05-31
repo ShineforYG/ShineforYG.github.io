@@ -1,15 +1,20 @@
- var CONFIG_JSON;
-
+// 读取配置文件
+var CONFIG_JSON;
 $.getJSON("/config.json", function(data){
-    console.log(this);
-    console.log(data);
     CONFIG_JSON = data;
-    console.log(CONFIG_JSON);
 });
 
-console.log(CONFIG_JSON);
+// 绘制头像图像
 try{   
     document.getElementById("icon-img")["src"] = CONFIG_JSON["icon_url"];
 } catch(err){
     document.getElementById("icon-img")["src"] = "src/icon.jpg"
+}
+
+// 加载文章分类目录
+var artDirUrl;
+try{
+    artDirUrl = CONFIG_JSON["data_url"];
+}catch(err){
+    artDirUrl = "data";
 }

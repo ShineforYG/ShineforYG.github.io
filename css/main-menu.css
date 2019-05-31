@@ -13,3 +13,7 @@
     width: 80%;
     border-radius: 50%;
 }
+
+.article-div{
+    background-image: image("/src/backgroud.jpg")
+}
