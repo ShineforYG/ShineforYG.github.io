@@ -17,7 +17,8 @@ try{
 // 加载文章分类目录
 var artDirUrl;
 try{
-    artDirUrl = CONFIG_JSON["data_url"];
+    artDirUrl = CONFIG_JSON["dm"];
 }catch(err){
     artDirUrl = "data";
 }
+

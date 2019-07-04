@@ -1,5 +1,5 @@
 {
     "icon_url":"img/icon.jpg",
     "data_url":"data",
-    "dm":["/哈哈", "/测试"]
+    "dm-list":["/哈哈", "/测试"]
 }
