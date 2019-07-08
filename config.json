@@ -1,5 +1,26 @@
 {
-    "icon_url":"img/icon.jpg",
-    "data_url":"data",
-    "dm-list":["/哈哈", "/测试"]
+    "icon_url": "img/icon.jpg",
+    "data_url": "data",
+    "art_dir": [
+        {
+            "name":"哈哈",
+            "chlidren":[
+                {"name" : "5031",
+                    "url" : "/data/123/5031.md"
+                },
+                {"name" : "5056",
+                    "url" : "/data/123/5056.md"
+                }
+            ]
+        },
+        {
+            "name":"测试",
+            "chlidren":[
+                {
+                    "name" : "何时我能获得LeetCodeT恤",
+                    "url" : "/data/test/leet.md"
+                }
+            ]
+        }
+    ]
 }

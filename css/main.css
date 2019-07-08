@@ -1,3 +1,12 @@
+
+html, body {
+    line-height: 1.5;
+    font-style: normal;
+    font-size: 16px;
+    /* font-style: italic; */
+}
+
+/* 主菜单 */
 .main-menu{
     margin:0;
     float: left;
@@ -8,6 +17,7 @@
     text-align: center;
 }
 
+/* 头像 */
 .icon-image{
     margin: 10%;
     width: 80%;
@@ -26,12 +36,54 @@
 }
 
 .article-div{
-    float: left;
+    /* float: left; */
     margin: 0;
     margin-left: 30%;
-    width: 70%;
+    margin-right: 10%;
+    width: 65%;
+    padding-left: 5%;
+    padding-right: 5%;
     height: 100%;
     position:fixed; /*设置当前div占100%的高度*/
     background-color:#FFFFFF;
-    text-align: center;
+    overflow-y:auto;
+    overflow-x:auto;
+}
+
+
+.tags-ul{
+    left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.tags-li {
+    padding: 12px 35px 9px;
+    width: 100%; 
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+.tags-li-clicked {
+    padding: 12px 35px 9px;
+    width: 100%; 
+    padding-left: 0px;
+    cursor: pointer;
+
+    margin-left: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #99CCFF;
+}
+
+.tags-li-clicked-art {
+    padding: 12px 35px 9px;
+    width: 100%; 
+    padding-left: 0px;
+    cursor: pointer;
+
+    margin-left: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #FFFFFF;
 }
